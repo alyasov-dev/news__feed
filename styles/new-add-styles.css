@@ -1,0 +1,87 @@
+.click-btn {
+	display: inline-block;
+	margin-top: 18px;
+}
+
+.add-name {
+	background-image: url(img/internet.png);
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	background-position: center left;
+	padding: 7px 0 7px 35px;
+	margin: 10px 0;
+}
+
+.add-name h2 {
+	font-size: 14px;
+}
+
+.add-search-btn {
+	width: 16px;
+	height: 16px;
+	background-image: url(img/search.png);
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	background-position: center;
+	margin: 18px 0;
+}
+
+.add-search-btn,
+.click-btn {
+	outline: none;
+}
+
+.add-search-btn,
+.click-btn::-moz-focus-inner {
+   border: none;
+}
+	
+	.date_time_hidden {
+		width: 100%;
+		justify-content: space-around;
+		margin-bottom: 20px;
+		align-self: center;
+	}
+
+	.clock-icon-hidden{
+		background-image: url(img/clock.png);
+  		background-position: left center;
+  		background-repeat: no-repeat;
+  		padding-left: 20px;
+	}
+
+	.text-style-hidden {
+  		color: #b2b2bb;
+  		padding-top: 5px;
+	}
+
+	.weather-hidden {
+		background-image: url(img/weather-icon.png);
+    	background-position: left;
+  		background-repeat: no-repeat;
+  		font-size: 16px;
+  		padding: 5px 0 0 36px;
+	}
+
+.navigation.active {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.navigation.active .navigation-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 10px 0;
+	
+}
+
+.navigation.active .navigation-list li {
+	margin: 0 25px;
+	padding: 8px;
+}
+
+
+

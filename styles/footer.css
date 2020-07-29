@@ -1,0 +1,130 @@
+.footer a {
+  text-decoration: none;
+}
+
+.footer-navigation {
+  display: block;
+  width: 250px;
+  height: 160px;
+  padding-top: 20px;
+}
+
+  .footer-list {
+    columns: 2;
+  }
+
+    .footer-list li {
+      margin-bottom: 16px;
+    }
+
+.footer-about {
+  display: block;
+  width: 170px;
+}
+  .bottom-figure {
+    margin: 0;
+    justify-content: flex-start;
+    padding-top: 20px;
+  }
+
+  .footer-about img {
+    margin-bottom: 22px;
+    width: 40px;
+  }
+
+  .footer-about figcaption {
+    display: block;
+    width: 77px;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 8px;
+  }
+
+  .footer-about li {
+    padding-bottom: 16px;
+  }
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}  
+
+  .social-conteiner li {
+    border: 1px solid #000;
+    border-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-conteiner li:not(:first-child){
+    margin-left: 16px;
+  }
+
+  li.about_social a {
+    display: block;
+    height: 40px;
+    width: 40px; 
+  }
+
+  .first-social {
+    background-image: url(img/vk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .second-social {
+    background-image: url(img/fb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .third-social {
+    background-image: url(img/tw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .fourth-social {
+    background-image: url(img/in.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.contact-info {
+  padding-top: 40px;
+} 
+
+  .contact-info li {
+    padding-bottom: 30px;
+    padding-left: 35px;
+  }
+
+  .contact-info a {
+    text-decoration: none;
+  }
+
+  .phone-image {
+    background-image: url(img/call-answer.png);
+    background-repeat: no-repeat;
+  }
+
+  .email-image {
+    background-image: url(img/envelope.png);
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+  }
+
+.copyright {
+  color: #26354e;
+  border-top: 1px solid #26354e;
+  font-size: 14px;
+  margin-top: 25px;
+  padding-top: 15px;
+  text-align: center;
+}  
+
+
+

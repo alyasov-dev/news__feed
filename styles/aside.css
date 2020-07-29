@@ -1,0 +1,12 @@
+.right-column {
+	width: 250px;
+}
+
+.right-column.right-column-list {
+	list-style: none;
+	display: block;
+}
+
+.right-column-list-item:first-child {
+	margin-bottom: 20px;
+}
